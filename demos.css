@@ -1,0 +1,190 @@
+body {
+     font-family: arial;
+     font-size: 10pt;
+}
+
+section ul, section ul li, nav li, nav ul {
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+}
+
+nav {
+     background: -moz-linear-gradient(right center , #080808 0px, #1D1D1D 3px) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear, center top,center bottom, from(#080808), to(#1D1D1D), color-stop(1%,#1d1d1d)) repeat scroll 0% 0% transparent;
+     bottom: 0px;
+     color: white;
+     left: 0px;
+     position: absolute;
+     top: 0px;
+     width: 200px;
+}
+
+nav ul {
+     border-top: 1px solid #080808;
+}
+
+nav h3 {
+     background: none repeat scroll 0% 0% #2C2C2C;
+     border-bottom: 1px solid #2A2A2A;
+     border-top: 1px solid #3D3D3D;
+     font-size: 0.9em;
+     margin: 0px;
+     padding: 5px 10px;
+     text-transform: uppercase;
+}
+
+nav ul li {
+     font-size: 0.9em;
+     padding: 5px 21px 4px;
+}
+
+nav ul li.ui-state-active {
+     -moz-border-bottom-colors: none;
+     -moz-border-image: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     background: -moz-linear-gradient(center top , #390000 0px, #420000 50%, #450000 50%, #4d0000 100%) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear, center top,center bottom, from(#0E90E0), to(#0065DC), color-stop(50%,#0F83E1), color-stop(50%,#057ADD)) repeat scroll 0% 0% transparent;
+     border-color: #270000 #270000 #270000 #270000;
+     border-style: solid;
+     border-width: 1px;
+     color: white;
+     margin: 0px;
+     padding: 4px 20px;
+}
+
+section {
+     background: none repeat scroll 0% 0% #F8F8F8;
+     border-left: 1px solid #ACACAC;
+     border-right: 1px solid #B3B3B3;
+     bottom: 0px;
+     left: 200px;
+     position: absolute;
+     top: 0px;
+     width: 500px;
+}
+
+section ul li {
+     background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear, center top,center bottom , from(#FFFFFF), to(#EFEFEF)) repeat scroll 0% 0% transparent;
+     border-bottom: 1px solid #D6D6D6;
+     font-size: 0.8em;
+     height: 28px;
+     padding: 4px 20px;
+}
+
+section h4 {
+     background: -moz-linear-gradient(center top , #EAEAEA, #DCDCDC) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear, center top,center bottom , from(#EAEAEA), to(#DCDCDC)) repeat scroll 0% 0% transparent;
+     border-bottom: 1px solid #BABABA;
+     border-top: 1px solid #C3C3C3;
+     color: #3A393C;
+     font-size: 0.88em;
+     margin: 0px;
+     padding: 5px 10px;
+     text-align: center;
+}
+.menu-bar {
+     background: -moz-linear-gradient(center top , #2F2F2F, #313131 50%, #222627 50%, #1D1E1E) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear,center top,center bottom , from(#2F2F2F),  to(#1D1E1E),color-stop(50%,#313131), color-stop(50%,#222627)) repeat scroll 0% 0% transparent;
+     color: white;
+     height: 28px;
+     left: 0px;
+     position: absolute;
+     right: 0px;
+     top: 0px;
+}
+
+.menu-bar ul, .menu-bar li {
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+}
+
+.menu-bar li {
+   
+}
+
+#main {
+     bottom: 0px;
+     left: 702px;
+     position: absolute;
+     right: 0px;
+     top: 0px;
+}
+
+.banner {
+     background:-moz-radial-gradient(center bottom , #353535, #101010) repeat scroll 0 0 transparent;
+     background: -webkit-radial-gradient(center bottom , #353535, #101010);
+border-top:1px solid #222222;
+     height: 60px;
+}
+
+div,body,li  {
+    cursor:default;
+user-select:none;
+}
+.menu-bar a.ui-button.ui-state-focus {
+  background: transparent; 
+  border:1px solid #212121;
+}
+.menu-bar a.ui-button.ui-state-hover,.menu-bar a.ui-button.ui-state-active {
+  background: -moz-linear-gradient(center top , #4E5253, #444547 50%, #35393A 50%, #313536) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear,  center top,  center bottom, from(#4E5253), to(#313536),color-stop(50%,#444547), color-stop(50%,#35393A));
+     border-radius: 3px 3px 3px 3px;
+     border: 1px solid #212121;   
+}
+
+.menu-bar .ui-menu {
+     background: none repeat scroll 0pt 0pt rgb(49, 53, 54); font-size: 1em; color: rgb(238, 238, 238);
+     border-top-left-radius: 0px; border-right: 1px solid rgb(31, 31, 31); border-width: 0px 1px 1px; border-style: none solid solid; 
+     border-color: -moz-use-text-color rgb(31, 31, 31) rgb(31, 31, 31); -moz-border-top-colors: none; -moz-border-right-colors: none;
+     -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; display: block;
+}
+.menu-bar .ui-menu li:first-child .ui-button { border-top-left-radius:3px;border-top-right-radius:3px }
+.menu-bar .ui-menu li:last-child .ui-button { border-bottom-left-radius:3px;border-bottom-right-radius:3px }
+
+.menu-bar .ui-menu .ui-state-focus,.menu-bar .ui-menu .ui-state-active {
+      -moz-border-bottom-colors: none;
+     -moz-border-image: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     background: -moz-linear-gradient(center top , #390000 0px, #420000 50%, #450000 50%, #4d0000 100%) repeat scroll 0% 0% transparent;
+     background: -webkit-gradient(linear, center top,center bottom, from(#0E90E0), to(#0065DC), color-stop(50%,#0F83E1), color-stop(50%,#057ADD)) repeat scroll 0% 0% transparent;
+     border-color: #270000 #270000 #270000 #270000;
+     border-style: solid;
+     border-width: 1px;
+     color: white;
+     border-radius:0px;
+}
+.menu-bar { font-size:0.8em; }
+.menu-bar a.ui-button {
+  
+     float: left;
+     font-size: inherit;
+     margin: 3px;
+     padding: 3px 14px 4px;   
+}
+.menu-bar .ui-button .ui-button-text {
+    line-height:inherit;padding:0px;
+}
+.menu-bar ul.ui-widget-header { border:inherit;background:inherit;color:inherit; }
+.menu-bar .ui-widget-header a { color:inherit; }
+
+.ui-dialog .ui-dialog-buttonpane .ui-button {
+     background: -moz-linear-gradient(center top , #4E5253, #444547 50%, #35393A 50%, #313536) repeat scroll 0% 0% transparent;
+     border-radius: 3px 3px 3px 3px;
+     border: 1px solid #212121;
+     color: white;
+}
+.ui-dialog .ui-dialog-titlebar a {
+ background: -moz-linear-gradient(center top , #4E5253, #444547 50%, #35393A 50%, #313536) repeat scroll 0% 0% transparent;
+     border-radius: 3px 3px 3px 3px;
+     border: 1px solid #212121;
+     color: white;
+padding:0px;
+
+}
